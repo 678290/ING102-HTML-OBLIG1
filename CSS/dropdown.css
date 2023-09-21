@@ -1,0 +1,41 @@
+.navbar a {
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    background-color: white;
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
