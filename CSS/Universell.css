@@ -5,6 +5,33 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+/* Header */
+header h1{
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+header p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+}
+.sealt {
+  Margin-left: 0px;
+}
+nav{
+  font-size: 20px;
+  margin-left: 30px;
+}
+nav a {
+margin-left: 30px;
+
+}
+button {
+  margin-left: 25px;
+}
+
+
 /* Dropdown menyen */
 .navbar a {
     float:left;
@@ -25,6 +52,8 @@ body{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    margin-left: 25px;
+
   }
   
   .dropdown-content {
@@ -53,6 +82,7 @@ body{
     text-align: center;
     width: 100%;
     bottom: 0;
+    position: absolute;
 
 
 }
