@@ -2,11 +2,6 @@
 <html lang>
 <head>
    <title>KLEDELI</title>
-   <link rel="stylesheet" href="./CSS/dropdown.css">
-   <link rel="stylesheet" href="./CSS/footer.css">
-<style>
-    body {
-        font-family:Arial, Helvetica, sans-serif;
-    }
-</style>
+   <link rel="stylesheet" href="./CSS/Universell.css">
+
 </head>
