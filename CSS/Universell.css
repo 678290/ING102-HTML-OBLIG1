@@ -1,7 +1,7 @@
 
 /* Font for hele nettstedet */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-body{
+* {
   font-family: 'Lato', sans-serif; 
 }
 
@@ -31,9 +31,21 @@ button {
   margin-left: 25px;
 }
 
+/* Knapper */
+.knapper {
+
+}
+.knapp {
+  font-size: 20px;
+  border: none;
+  padding: 15px;
+}
+
+
 
 /* Dropdown menyen */
 .navbar a {
+    display: inline;
     float:left;
     font-size: 20px;
     text-align: center;
@@ -61,13 +73,13 @@ button {
     position: absolute;
     min-width: 150px;
     z-index: 1;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   
   .dropdown-content a {
     float: none;
     color: black;
-    background-color: white;
+    
     display: block;
     text-align: left;
     margin-left: 30px;
