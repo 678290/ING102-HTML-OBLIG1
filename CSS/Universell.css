@@ -2,18 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
   font-family: 'Lato', sans-serif; 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: 'Lato', sans-serif; 
+  margin: 0;
+  padding: 0;
 }
 
 /* Header */
 
-}
+
 button {
   margin-left: 25px;
 }
@@ -26,15 +21,6 @@ button {
   font-size: 20px;
   border: none;
   padding: 15px;
-}
-
-
-
-/* Dropdown menyen */
-.navbar a {
-    display: inline;
-    float:left;
-    font-size: 20px;
 }
 
     .toplinje{
@@ -81,45 +67,6 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
   }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 20px;  
-    border: none;
-    outline: none;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    margin-left: 25px;
-
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 150px;
-    z-index: 1;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    
-    display: block;
-    text-align: left;
-    margin-left: 30px;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-    padding: 15px;
-    color: black;
-}
 
 /* Dropdown meny */
 
@@ -156,6 +103,7 @@ nav ul li a {
     color: black;
     padding: 10px 24px;
 }
+
 /* Footer */
 .footer {
     background-color: rgb(222, 222, 222);
@@ -165,22 +113,26 @@ nav ul li a {
     position: relative;
     padding: 10px;
 }
+
 .footer h3{
   padding-top: 10px;
 }
+
 .tabell {
     width: 100%;
-
 }
+
 .fhead {
     font-size: 30px;
     margin-left: 10px;
     text-align: left;
 }
+
 a {
     color: black;
     text-decoration: none;
 }
+
 footer p {
   padding-bottom: 10px;
 }
