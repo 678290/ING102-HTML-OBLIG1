@@ -8,22 +8,7 @@
 
 /* Header */
 
-
-button {
-  margin-left: 25px;
-}
-
-/* Knapper */
-.knapper {
-
-}
-.knapp {
-  font-size: 20px;
-  border: none;
-  padding: 15px;
-}
-
-    .toplinje{
+.toplinje{
     text-align: center;
 }
 
@@ -135,4 +120,47 @@ a {
 
 footer p {
   padding-bottom: 10px;
+}
+
+/* KLEDELI.html */
+
+/* Knapper */
+.knapper {
+
+}
+.knapp {
+  font-size: 20px;
+  border: none;
+  padding: 15px;
+}
+
+
+/* Baerekraft.html */
+h2 {
+  text-align: center;
+}
+
+h3.h3 {
+  color: green;
+  text-align: center;
+  background-color: #EAF2E7
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+p {
+  text-align: center;
+  text-indent: 50px;
+  line-height: 1,8;
+}
+
+h2.bkraft {
+  text-transform: uppercase;
+  color: green;
+  background-color: #EAF2E7
 }
