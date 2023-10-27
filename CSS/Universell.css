@@ -183,4 +183,53 @@ h2.bkraft {
   font-size: 40px;
   text-align: center;
   margin: 20px;
+  font-weight: 600;
+}
+
+/* link til sporing */
+
+.bildebeholder {
+  position: relative;
+  width: 400px; 
+  height: 400px; 
+  margin-left: 500px;
+}
+
+.bildehente {
+  max-width: 100%;
+  max-height: 100%; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(59, 59, 59, 0.5); 
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.overlay-text p a{
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000000; 
+  background-color: #D2E3C8;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+
+.bildebeholder:hover .overlay {
+  opacity: 1;
+}
+
+.bildebeholder:hover .overlay-text p a {
+  opacity: 1;
 }
