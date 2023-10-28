@@ -11,13 +11,16 @@
 
 .toplinje{
     text-align: center;
+
 }
 
-.toplinje h1{
+.toplinje h1 a {
     font-size: 45px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 5px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .toplinje h2 {
@@ -46,6 +49,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: #000000;
   }
 
 /* Dropdown meny */
