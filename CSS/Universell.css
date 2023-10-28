@@ -4,6 +4,7 @@
   font-family: 'Lato', sans-serif; 
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 /* Header */
@@ -27,20 +28,15 @@
 }
 
 nav {
-    width: 100%;
-    text-align: center;
     background-color: rgb(255, 255, 255);
-
 }
 
 nav ul {
     list-style: none;
     text-align: center;
-    margin: 0px -25px;
     display: flex;
     justify-content: center;
     font-size: 18px;
-
 }
 
 nav ul li {
@@ -59,10 +55,9 @@ nav ul li a {
 }
 
 .dropdowncontent {
+  margin: 0px -25px;
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
     background-color: rgb(255, 255, 255);
     padding: 0px 0px 7px 0px;
     border-radius: 0px 0px 10px 10px;
@@ -92,17 +87,13 @@ nav ul li a {
 }
 
 /* Footer */
+
 .footer {
     background-color: rgb(222, 222, 222);
     text-align: center;
     width: 100%;
     bottom: 0;
     position: relative;
-    padding: 10px;
-}
-
-.footer h3{
-  padding-top: 10px;
 }
 
 .tabell {
@@ -111,44 +102,69 @@ nav ul li a {
 
 .fhead {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     text-align: left;
+    padding-top: 10px;
 }
 
-a {
+.footer a {
     color: black;
     text-decoration: none;
 }
 
 footer p {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 /* KLEDELI.html */
 
-.bilde {
-  width: 100%;
-}
-
 /* Knapper */
+
+.knapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .knapper ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  font-size: 26px;
 }
+
 .knapper ul li {
-  margin:0px 50px;
+  margin: 0px 80px;
+}
+
+.knapper a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.knapper ul li a:hover {
+  background-color: #ecf7e6;
+  transition: 0.5s;
+}
+
+.levpad1{
+  font-size: 26px;
+  white-space: nowrap;
+  padding: 50px 125px;
   background-color: #D2E3C8;
-  padding: 50px 300px;
+  border-radius: 20px;
+}
+
+.levpad2, .levpad3 {
+  font-size: 26px;
+  white-space: nowrap;
+  padding: 50px 200px;
+  background-color: #D2E3C8;
   border-radius: 20px;
 }
 
 
 
 /* Baerekraft.html */
-h2 {
+h2.h2 {
   text-align: center;
 }
 
@@ -179,6 +195,13 @@ h2.bkraft {
 
 /* Hente.html */
 
+.steksthente{
+  font-size: 50px;
+  text-align: center;
+  margin: 20px;
+  font-weight: 600;
+}
+
 .teksthente {
   font-size: 40px;
   text-align: center;
@@ -186,13 +209,34 @@ h2.bkraft {
   font-weight: 600;
 }
 
+.knapperhente ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.knapperhente ul li a {
+  margin:0px 50px;
+  background-color: #D2E3C8;
+  padding: 25px 50px;
+  border-radius: 20px;
+  font-size: 26px;
+}
+.knapperhente ul li a:hover {
+  background-color: #ecf7e6;
+  transition: 0.5s;
+
+}
+
+
 /* link til sporing */
 
 .bildebeholder {
   position: relative;
   width: 400px; 
   height: 400px; 
-  margin-left: 500px;
+  left: 42.5%;
+  margin: 20px 0px;
 }
 
 .bildehente {
@@ -200,6 +244,7 @@ h2.bkraft {
   max-height: 100%; 
   width: 100%; 
   height: 100%; 
+  border-radius: 5px;
 }
 
 .overlay {
@@ -211,9 +256,10 @@ h2.bkraft {
   background-color: rgba(59, 59, 59, 0.5); 
   opacity: 0;
   transition: opacity 0.5s;
+  border-radius: 5px;
 }
 
-.overlay-text p a{
+.overlaytekst p a{
   position: absolute;
   opacity: 0;
   top: 50%;
@@ -230,7 +276,7 @@ h2.bkraft {
   opacity: 1;
 }
 
-.bildebeholder:hover .overlay-text p a {
+.bildebeholder:hover .overlaytekst p a {
   opacity: 1;
 }
 
@@ -260,3 +306,37 @@ h2.bkraft {
   margin-top: 10px;
 }
 
+/* Kontaktoss.html */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #D2E3C8;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ecf7e6;
+  transition: 0.5s;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
