@@ -7,6 +7,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Header */
 
 .toplinje{
@@ -98,6 +104,7 @@ nav ul li a {
     width: 100%;
     bottom: 0;
     position: relative;
+    margin-top: auto;
 }
 
 .tabell {
@@ -123,7 +130,6 @@ footer p {
 /* KLEDELI.html */
 
 /* Knapper */
-
 .knapper {
   width: 100%;
   display: flex;
@@ -231,10 +237,7 @@ h2.bkraft {
   transition: 0.5s;
 
 }
-
-
 /* link til sporing */
-
 .bildebeholder {
   position: relative;
   width: 400px; 
@@ -284,7 +287,11 @@ h2.bkraft {
   opacity: 1;
 }
 
-/* Yttertøy.html, Innertøy.html, Undertøy.html, Barn.html*/
+/* Yttertøy.html, Innetøy.html, Undertøy.html, Barn.html*/
+
+.h2klaer {
+  text-align: center;
+}
 
 .gallery {
   display: flex;
