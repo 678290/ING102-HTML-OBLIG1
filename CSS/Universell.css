@@ -7,6 +7,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #f0f0f0;
+}
+
 /* Header */
 
 .toplinje{
@@ -224,6 +228,8 @@ h2.bkraft {
   padding: 25px 50px;
   border-radius: 20px;
   font-size: 26px;
+  text-decoration: none;
+  color: #000000;
 }
 .knapperhente ul li a:hover {
   background-color: #ecf7e6;
@@ -232,11 +238,14 @@ h2.bkraft {
 }
 /* link til sporing */
 .bildebeholder {
-  position: relative;
   width: 400px; 
   height: 400px; 
-  left: 42.5%;
-  margin: 20px 0px;
+  position: relative;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .bildehente {
@@ -266,7 +275,8 @@ h2.bkraft {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #000000; 
+  color: #000000;
+  text-decoration: none;
   background-color: #D2E3C8;
   padding: 10px 24px;
   border-radius: 5px;
