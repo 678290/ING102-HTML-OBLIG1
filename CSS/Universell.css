@@ -510,6 +510,18 @@ input[type=text], select, textarea {
   border-collapse:collapse;
 }
 
+.table th a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 250px;
+  white-space: nowrap;
+}
+
+
+.table th a:hover {
+  text-decoration: underline;
+}
+
 .table {
   margin-left: auto;
   margin-right: auto;
