@@ -381,7 +381,21 @@ input[type=text], select, textarea {
 
 /* Omoss.html */
 
-h2.h2 {
+html, body {
+  overflow-y: auto;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Velkommen p {
   text-align: center;
 }
 
@@ -389,17 +403,28 @@ h2.h2 {
 text-align: center;
 }
 
-.Reduksjonavavfall p {
-  text-align: center;
- }
-.Kvalitetogreperasjon p {
-  text-align: center;
-}
-.Bærekraftigematerialer p {
+.Vårbaerekraftigeforpliktelse p {
   text-align: center;
 }
 
-.Miljøvennligemballasje p {
+.Reduksjonavavfall p {
+  text-align: center;
+ }
+
+.KvalitetogReperasjon p {
+  text-align: center;
+  padding: 5px;
+}
+
+.BaerekraftigeMaterialer p {
+  text-align: center;
+}
+
+.EffektivLogistikk p {
+  text-align: center;
+}
+
+.MiljøvennligEmballasje p {
   text-align: center;
 }
 
@@ -414,5 +439,3 @@ text-align: center;
 .Oppsummering p {
   text-align: center;
  }
- 
-                  
