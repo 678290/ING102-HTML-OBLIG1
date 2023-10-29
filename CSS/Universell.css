@@ -377,4 +377,42 @@ input[type=text], select, textarea {
 .table {
   margin-left: auto;
   margin-right: auto;
+} 
+
+/* Omoss.html */
+
+h2.h2 {
+  text-align: center;
 }
+
+.Vierstolte p {
+text-align: center;
+}
+
+.Reduksjonavavfall p {
+  text-align: center;
+ }
+.Kvalitetogreperasjon p {
+  text-align: center;
+}
+.Bærekraftigematerialer p {
+  text-align: center;
+}
+
+.Miljøvennligemballasje p {
+  text-align: center;
+}
+
+.Viktig p {
+  text-align: center
+}
+
+.Vieroverbevist p {
+  text-align: center;
+}
+
+.Oppsummering p {
+  text-align: center;
+ }
+ 
+                  
