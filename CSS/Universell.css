@@ -513,4 +513,65 @@ input[type=text], select, textarea {
 .table {
   margin-left: auto;
   margin-right: auto;
+} 
+
+/* Omoss.html */
+
+html, body {
+  overflow-y: auto;
 }
+
+p {
+  font-family: sans-serif;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Velkommen p {
+  text-align: center;
+}
+
+.Vierstolte p {
+text-align: center;
+}
+
+.Vårbaerekraftigeforpliktelse p {
+  text-align: center;
+}
+
+.Reduksjonavavfall p {
+  text-align: center;
+ }
+
+.KvalitetogReperasjon p {
+  text-align: center;
+  padding: 5px;
+}
+
+.BaerekraftigeMaterialer p {
+  text-align: center;
+}
+
+.EffektivLogistikk p {
+  text-align: center;
+}
+
+.MiljøvennligEmballasje p {
+  text-align: center;
+}
+
+.Viktig p {
+  text-align: center
+}
+
+.Vieroverbevist p {
+  text-align: center;
+}
+
+.Oppsummering p {
+  text-align: center;
+ }
