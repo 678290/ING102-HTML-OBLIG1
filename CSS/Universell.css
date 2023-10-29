@@ -35,7 +35,7 @@ body {
 }
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 nav ul {
@@ -63,12 +63,12 @@ nav ul li a {
 }
 
 .dropdowncontent {
-  margin: 0px -25px;
+    margin: 0px 0px 0px -25px;
     display: none;
     position: absolute;
-    background-color: rgb(255, 255, 255);
-    padding: 0px 0px 7px 0px;
-    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.829);
+    padding: 7px 0px;
+    border-radius: 10px;
     z-index: 1;
 
 }
@@ -359,14 +359,22 @@ input[type=text], select, textarea {
 }
 
 /*Medlemskap.html*/
-.th,td{
+
+.table th, .table td{
   text-align: center;
   border: 3px;
   border-collapse: collapse;
   width: max-content;
   padding: 1%;
+  font-size: 25px;
 }
-th{
+
+.table th{
   border: 3px solid black;
   border-collapse:collapse;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
 }
