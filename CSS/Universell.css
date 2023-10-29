@@ -7,12 +7,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 /* Header */
 
 .toplinje{
@@ -145,14 +139,13 @@ footer p {
   margin: 0px 80px;
 }
 
-.knapper a {
+.knapper ul li a {
   text-decoration: none;
   color: #000000;
 }
 
-.knapper ul li a:hover {
+.knapper .levpad1:hover, .levpad2:hover, .levpad3:hover {
   background-color: #ecf7e6;
-  transition: 0.5s;
 }
 
 .levpad1{
