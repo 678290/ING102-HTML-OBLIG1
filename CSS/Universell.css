@@ -149,44 +149,34 @@ footer p {
 
 /* Knapper */
 .knapper {
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
-.knapper ul {
-  list-style: none;
-  display: flex;
-}
-
-.knapper ul li {
-  margin: 0px 80px;
-}
-
-.knapper ul li a {
+.knapp1 a, .knapp2 a, .knapp3 a {
   text-decoration: none;
-  color: #000000;
-}
-
-.knapper .levpad1:hover, .levpad2:hover, .levpad3:hover {
-  background-color: #ecf7e6;
-}
-
-.levpad1{
+  color: #000;
   font-size: 26px;
-  white-space: nowrap;
   padding: 50px 125px;
   background-color: #D2E3C8;
   border-radius: 20px;
+  white-space: nowrap;
 }
 
-.levpad2, .levpad3 {
-  font-size: 26px;
-  white-space: nowrap;
-  padding: 50px 200px;
-  background-color: #D2E3C8;
-  border-radius: 20px;
+.knapp1 a:hover, .knapp2 a:hover, .knapp3 a:hover {
+  background-color: #ecf7e6;
 }
+
+@media (max-width: 800px) {
+  .knapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .knapp2, .knapp3 {
+    margin-top: 120px;
+  }
+}
+
 
 /* Logg inn */
 
