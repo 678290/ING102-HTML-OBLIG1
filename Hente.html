@@ -38,17 +38,19 @@
 
         <div id="logginn" class="logginn">
             <div class="logginnform">
-                <form action="./php/x.php">
+                <form>
                     <h1>Logg inn</h1>
         
                     <div class="inputboks">
-                        <input type="text" placeholder="Brukernavn" required>
+                        <input type="username" id="uname" required>
+                        <label for="uname">Brukernavn</label>
                     </div>
         
                     <div class="inputboks">
-                        <input type="text" placeholder="Passord" required>
+                        <input type="password" id="pword" required>
+                        <label for="pword">Passord</label>
                     </div>
-        
+                    
                     <div class="huskglem">
                         <label><input type="checkbox">Husk meg</label>
                         <a href="#">Glemt passord?</a>
@@ -77,7 +79,7 @@
 
     <br><br><br><br>
 
-    <section class="knapperhente">
+    <div class="knapperhente">
             <div class="bergen">
                 <a href="#bergen">Bergen</a>
             </div>
@@ -87,7 +89,7 @@
             <div class="førde">
                 <a href="#forde">Førde</a>
             </div>
-    </section>
+    </div>
 
     <br><br>
 
@@ -225,7 +227,7 @@
             <br><br>
 
     <footer class="footer">
-        <h3 class="fhead">KLEDELI</h3>
+        <h1 class="fhead">KLEDELI</h1>
         <br>
           <table class="tabell">
             <tr>
