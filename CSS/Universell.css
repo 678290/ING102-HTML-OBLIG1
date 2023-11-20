@@ -342,13 +342,12 @@ h2.bkraft {
   font-weight: 600;
 }
 
-.knapperhente ul {
-  list-style: none;
+.knapperhente {
   display: flex;
   justify-content: center;
 }
 
-.knapperhente ul li a {
+.knapperhente div a {
   margin:0px 50px;
   background-color: #D2E3C8;
   padding: 25px 50px;
@@ -357,11 +356,21 @@ h2.bkraft {
   text-decoration: none;
   color: #000000;
 }
-.knapperhente ul li a:hover {
+.knapperhente div a:hover {
   background-color: #ecf7e6;
   transition: 0.5s;
-
 }
+
+@media (max-width: 800px) {
+  .knapperhente {
+    flex-direction: column;
+    align-items: center;
+  }
+  .haugesund, .førde {
+    margin-top: 100px;
+  }
+}
+
 /* link til sporing */
 .bildebeholder {
   width: 400px; 
