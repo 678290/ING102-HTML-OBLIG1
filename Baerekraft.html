@@ -40,17 +40,19 @@
 
         <div id="logginn" class="logginn">
             <div class="logginnform">
-                <form action="./php/x.php">
+                <form>
                     <h1>Logg inn</h1>
         
                     <div class="inputboks">
-                        <input type="text" placeholder="Brukernavn" required>
+                        <input type="username" id="uname" required>
+                        <label for="uname">Brukernavn</label>
                     </div>
         
                     <div class="inputboks">
-                        <input type="text" placeholder="Passord" required>
+                        <input type="password" id="pword" required>
+                        <label for="pword">Passord</label>
                     </div>
-        
+                    
                     <div class="huskglem">
                         <label><input type="checkbox">Husk meg</label>
                         <a href="#">Glemt passord?</a>
