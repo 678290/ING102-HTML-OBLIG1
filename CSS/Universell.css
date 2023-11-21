@@ -25,7 +25,8 @@ a {
 }
 
 .logginnknapp {
-  margin: 50px 50px 0px 0px;
+  margin: 70px 50px 0px 0px;
+  font-size: 26px;
 }
 
 .logginnknapp:hover {
@@ -36,10 +37,11 @@ a {
 .henthjelp ul {
   list-style-type: none;
   display: flex;
-  margin: 50px 0px 0px 50px;
+  margin: 70px 0px 0px 50px;
+  font-size: 26px;
 }
 .henthjelp ul li {
-  margin-right: 10px
+  margin-right: 50px
 }
 
 .henthjelp ul li a {
@@ -56,27 +58,27 @@ a {
 }
 
 .logo h1 a {
-  font-size: 45px;
+  font-size: 70px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 5px;
-  margin-left: -230px;
+  margin-left: -370px;
   color: #000000;
 }
 
 .logo h2 {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 40px;
   text-align: center;
   margin-top: 0px;
-  margin-left: -230px;
+  margin-left: -370px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  font-size: 18px;
+  font-size: 26px;
 }
 
 nav ul li {
@@ -138,10 +140,11 @@ nav ul li a {
 
 .tabell {
   width: 100%; 
+  font-size: 20px;
 }
 
 .fhead {
-  font-size: 30px;
+  font-size: 50px;
   margin-left: 20px;
   text-align: left;
   padding-top: 10px;
@@ -153,6 +156,8 @@ nav ul li a {
 
 footer p {
   padding-bottom: 20px;
+  margin-top: 30px;
+  font-size: 16px;
 }
 
 /* KLEDELI.html */
@@ -174,6 +179,7 @@ footer p {
   font-size: 100px;
   color: #252525;
   margin-right: 40px;
+  user-select: none;
 }
 
 .henting {
@@ -296,7 +302,6 @@ footer p {
   border-bottom: 2px solid #d1d1d1;
   margin: 30px 0;
   z-index: 1;
-  
 }
 
 .inputboks label {
@@ -305,7 +310,6 @@ footer p {
   left: 5px;
   transform: translateY(-50%);
   font-size: 16px;
-  font-weight: 600;
   pointer-events: none;
   transition: 0.2s;
   
@@ -434,6 +438,11 @@ h2.bkraft {
 }
 
 /* Hente.html */
+
+.hentebakgrunn {
+  background-image: url(../Bilder/pakke.png);
+  background-repeat: no-repeat;
+}
 
 .steksthente{
   font-size: 50px;
