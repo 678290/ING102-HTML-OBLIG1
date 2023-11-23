@@ -411,12 +411,7 @@ footer p {
   cursor: pointer;
 }
 
-
-
 /* Baerekraft.html */
-h2.h2 {
-  text-align: center;
-}
 
 h3.h3 {
   color: green;
@@ -439,6 +434,7 @@ width: 50%;
 
 h2.bkraft {
   text-transform: uppercase;
+  text-align: center;
   color: green;
   background-color: #EAF2E7
 }
