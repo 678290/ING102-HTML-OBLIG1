@@ -192,14 +192,15 @@ footer p {
   height: 400px;
   background-color: #f0f0f0;
   background-image: url(../Bilder/pakke.png);
+  background-size: 19rem;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 65px center;
   display: flex;
   align-items: center;
 }
 
 .henting h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-left: 20px;
   color: #c5c5c5;
 }
@@ -225,7 +226,7 @@ footer p {
 }
 
 .blimedlem h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-left: 20px;
   color: #c5c5c5;
 }
@@ -251,7 +252,7 @@ footer p {
 }
 
 .kontaktoss h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-left: 20px;
   color: #c5c5c5;
 }
