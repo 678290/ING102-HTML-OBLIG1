@@ -8,8 +8,9 @@
 }
 
 :root {
-  font-size: 20px;
+  font-size: clamp(0.5rem, 1vw, 1rem)
 }
+
 
 body {
   background-color: #f0f0f0;
@@ -66,7 +67,7 @@ a {
   font-weight: 400;
   text-align: center;
   margin-bottom: 5px;
-  margin-left: -370px;
+  margin-left: -20.5rem;
   color: #252525;
 }
 
@@ -75,7 +76,7 @@ a {
   font-size: 1.5rem;
   text-align: center;
   margin-top: 0px;
-  margin-left: -370px;
+  margin-left: -20.5rem;
 }
 
 nav ul {
@@ -173,7 +174,7 @@ footer p {
 
 .fortekst {
   width: 100%;
-  height: 1000px;
+  height: 55rem;
   background-image: url(../Bilder/Forsideny.jpeg);
   background-repeat: no-repeat;
   background-position: top;
@@ -184,17 +185,18 @@ footer p {
   font-size: 5rem;
   color: #252525;
   margin-right: 40px;
+  margin-top: 1em;
   user-select: none;
 }
 
 .henting {
   width: 100%;
-  height: 400px;
+  height: 25rem;
   background-color: #f0f0f0;
   background-image: url(../Bilder/pakke.png);
-  background-size: 19rem;
   background-repeat: no-repeat;
-  background-position: right 65px center;
+  background-size: 18vw;
+  background-position: right;
   display: flex;
   align-items: center;
 }
@@ -216,10 +218,11 @@ footer p {
 
 .blimedlem {
   width: 100%;
-  height: 400px;
+  height: 25rem;
   background-color: #f0f0f0;
   background-image: url(../Bilder/Medlem.png);
   background-repeat: no-repeat;
+  background-size: 20vw;
   background-position: right;
   display: flex;
   align-items: center;
@@ -242,10 +245,11 @@ footer p {
 
 .kontaktoss {
   width: 100%;
-  height: 400px;
+  height: 25rem;
   background-color: #f0f0f0;
   background-image: url(../Bilder/Mail.png);
   background-repeat: no-repeat;
+  background-size: 20vw;
   background-position: right;
   display: flex;
   align-items: center;
