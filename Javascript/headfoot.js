@@ -51,20 +51,20 @@ connectedCallback() {
         <table class="tabell">
           <tr>
               <th>Handle</th>
-              <th><a href="./Omoss.html">Om KLEDELI</a></th>
-              <th><a href="./Kontaktoss.html">Hjelp</a></th>
+              <th>Om KLEDELI</th>
+              <th>Hjelp</th>
               <th>Medlemskap</th>
           </tr>
           <tr>
               <td><a href="./Barn.html">Se alt</a></td>
-              <td><a href="#">Partnere</a></td>
-              <td>Personvern og datasikkerhet</td>
+              <td><a href="./Omoss.html">Om oss</a></td>
+              <td><a href="./Kontaktoss.html">Kontakt oss</a></td>
               <td><a href="./Medlemskap.html">Bli medlem</a></td>
           </tr>
           <tr>
               <td><a href="#kategorier">Kategorier</a></td>
               <td>Ofte stilte spørsmål</td>
-              <td>levering og retur</td>
+              <td><a href="./Hente.html">levering og retur</a></td>
               <td>Leievilkår</td>
           </tr>
         </table>
