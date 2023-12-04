@@ -25,8 +25,8 @@ class MyHeader extends HTMLElement {
                         <a href="" id="kategorier">Kategorier</a>
                         <ul class="dropdowncontent">
                             <li><a href="./Yttertoy.html">Ytterklær</a></li>
-                            <li><a href="./Innetøy.html">Innerklær</a></li>
-                            <li><a href="./Undertøy.html">Undertøy</a></li>
+                            <li><a href="./Innetoy.html">Innerklær</a></li>
+                            <li><a href="./Undertoy.html">Undertøy</a></li>
                         </ul>
                     </li>
                     <li><a href="./Baerekraft.html">Bærekraft</a></li>
